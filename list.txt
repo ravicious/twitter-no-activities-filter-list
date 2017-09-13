@@ -1,0 +1,12 @@
+[Adblock Plus 2.0]
+! Title: Twitter No Activities
+! Last modified: 13 Sep 2017 18:30:53 +0000
+! Expires: 7 days (update frequency)
+! Homepage: https://github.com/ravicious/twitter-no-activities-filter-list
+!
+
+! Removes the "Foo liked" tweet.
+twitter.com##div.tweet[data-component-context="suggest_activity_tweet"]
+
+! Removes the "Foo recently followed" tweet.
+twitter.com##li.stream-item[data-suggestion-json*="\"suggestion_type\":\"TrendingFollow\""]
