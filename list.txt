@@ -10,3 +10,6 @@ twitter.com##div.tweet[data-component-context="suggest_activity_tweet"]
 
 ! Removes the "Foo recently followed" tweet.
 twitter.com##li.stream-item[data-suggestion-json*="\"suggestion_type\":\"TrendingFollow\""]
+
+! Removes both "Foo liked" and "Foo recently followed" tweets.
+twitter.com##li.stream-item[data-suggestion-json*="\"suggestion_type\":\"PyleTweet\""]
